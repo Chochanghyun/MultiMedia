@@ -1,3 +1,8 @@
+//  ex_2.java
+//  Created by deok9 on 2017. 11. 13..
+//  Copyright © 17year deok9. All rights reserved.
+//
+//  it wasn't difficult for me
 class InvalidWithdraw extends Exception{
     private static final long serialVersionUID = 1L;
     String msg;

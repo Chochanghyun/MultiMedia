@@ -23,12 +23,14 @@ class PrimeNumber03 implements Runnable {
 
     @Override
     public void run() {
+        //Print format
         System.out.println(Thread.currentThread().getName()+":");
         showPrime();
     }
 }
 public class ex_6 {
     public static void main(String[] args){
+        //Create Thread
         new Thread(new PrimeNumber03(25),"소수를 만드는 스래드").start();
     }
 }
